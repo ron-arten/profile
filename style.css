@@ -1,7 +1,7 @@
 body {
   background-color: white;
-  /*background-image: url(images/neon-sunset-1170.jpg);*/
-  /*background-size: cover;*/
+  background-image: url(images/abstractback.jpg);
+  background-size: cover;
 }
 
 h1 {
@@ -11,11 +11,11 @@ h1 {
 }
 h2 {
   font-family: 'Quicksand', sans-serif;
-  font-weight: lighter;
-  color: #083D77;
+  font-weight: bolder;
+  color: #3ECF8E;
 }
 h2:hover {
-  color: #6290C8;
+  color: #51CDD5;
 
 }
 .profilepic {
@@ -25,9 +25,11 @@ h2:hover {
   width: 40%;
 }
 
-a {
+a{
   text-decoration: none;
+  color: #3ECF8E;
 }
+
 .btn {
   margin-top: 10px;
   padding: 16px 24px;
@@ -45,7 +47,8 @@ a {
 
 p {
   font-family: 'Nunito', sans-serif;
-  color: #ECA400;
+  color: #BF3100;
+  font-size: 20px;
 }
 .intro {
   margin-bottom: 30px;
@@ -58,10 +61,10 @@ p {
   margin: auto;
   width: 50%;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 #profile-card {
-  box-shadow: 0px 10px 30px rgba(0, 0,0, 0.1);
+  box-shadow: 0px 100px 100px rgba(1, 20,20, 0.5);
   padding-bottom: 40px;
 }
 .list-inline {
@@ -74,7 +77,7 @@ p {
 }
 .socials {
   margin: 10px;
-  font-size: 20px;
+  font-size: 40px;
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
